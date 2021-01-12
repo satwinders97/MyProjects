@@ -1,0 +1,622 @@
+﻿{
+  "MapWidth": 25,
+  "MapHeight": 100,
+  "IsOutside": true,
+  "Avatar": {
+    "X": 3,
+    "Y": 95
+  },
+  "Obstacles": {
+    "QuestionBlocks": [
+      {
+        "X": 5,
+        "Y": 89,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 11,
+        "Y": 83,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 12,
+        "Y": 83,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 13,
+        "Y": 83,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 14,
+        "Y": 83,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 12,
+        "Y": 69,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 9,
+        "Y": 66,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 12,
+        "Y": 66,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 15,
+        "Y": 66,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 12,
+        "Y": 63,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 22,
+        "Y": 40,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 24,
+        "Y": 34,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 0,
+        "Y": 30,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 24,
+        "Y": 26,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 0,
+        "Y": 22,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 7,
+        "Y": 19,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      }
+    ],
+    "BrickBlocks": [
+      {
+        "X": 0,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 1,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 2,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 3,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 4,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 5,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 6,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 7,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 17,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 18,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 19,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 20,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 21,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 22,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 23,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 24,
+        "Y": 10,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 8,
+        "Y": 7,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 9,
+        "Y": 7,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 10,
+        "Y": 7,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 11,
+        "Y": 7,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 12,
+        "Y": 7,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 13,
+        "Y": 7,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 14,
+        "Y": 7,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 15,
+        "Y": 7,
+        "HiddenItems": {
+
+        }
+      },
+      {
+        "X": 16,
+        "Y": 7,
+        "HiddenItems": {
+
+        }
+      }
+    ],
+    "FloorBlocks": [
+      {
+        "X": 0,
+        "Y": 99
+      },
+      {
+        "X": 1,
+        "Y": 99
+      },
+      {
+        "X": 2,
+        "Y": 99
+      },
+      {
+        "X": 3,
+        "Y": 99
+      },
+      {
+        "X": 4,
+        "Y": 99
+      },
+      {
+        "X": 5,
+        "Y": 99
+      },
+      {
+        "X": 6,
+        "Y": 99
+      },
+      {
+        "X": 7,
+        "Y": 99
+      },
+      {
+        "X": 8,
+        "Y": 99
+      },
+      {
+        "X": 9,
+        "Y": 99
+      },
+      {
+        "X": 10,
+        "Y": 99
+      },
+      {
+        "X": 11,
+        "Y": 99
+      },
+      {
+        "X": 12,
+        "Y": 99
+      },
+      {
+        "X": 13,
+        "Y": 99
+      },
+      {
+        "X": 14,
+        "Y": 99
+      },
+      {
+        "X": 15,
+        "Y": 99
+      },
+      {
+        "X": 16,
+        "Y": 99
+      },
+      {
+        "X": 17,
+        "Y": 99
+      },
+      {
+        "X": 18,
+        "Y": 99
+      },
+      {
+        "X": 19,
+        "Y": 99
+      },
+      {
+        "X": 20,
+        "Y": 99
+      },
+      {
+        "X": 21,
+        "Y": 99
+      },
+      {
+        "X": 22,
+        "Y": 99
+      },
+      {
+        "X": 23,
+        "Y": 99
+      },
+      {
+        "X": 24,
+        "Y": 99
+      }
+    ],
+    "HiddenBlocks": [
+      {
+        "X": 0,
+        "Y": 6,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      },
+      {
+        "X": 24,
+        "Y": 6,
+        "HiddenItems": {
+          "Vaccines": 1
+        }
+      }
+    ],
+    "Clouds": [
+      {
+        "X": 10,
+        "Y": 92,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 3,
+        "Y": 92,
+        "Type": "Double",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 17,
+        "Y": 95,
+        "Type": "Triple",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 9,
+        "Y": 86,
+        "Type": "Triple",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 0,
+        "Y": 80,
+        "Type": "Triple",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 18,
+        "Y": 80,
+        "Type": "Triple",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 12,
+        "Y": 76,
+        "Type": "Single",
+        "XSpeed": 0.5,
+        "YSpeed": 0
+      },
+      {
+        "X": 6,
+        "Y": 72,
+        "Type": "Double",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 14,
+        "Y": 72,
+        "Type": "Double",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 17,
+        "Y": 60,
+        "Type": "Double",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 21,
+        "Y": 57,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 14,
+        "Y": 55,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 5,
+        "Y": 52,
+        "Type": "Triple",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 13,
+        "Y": 49,
+        "Type": "Double",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 0,
+        "Y": 48,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 20,
+        "Y": 45,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 0,
+        "Y": 44,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 15,
+        "Y": 41,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 0,
+        "Y": 40,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 8,
+        "Y": 36,
+        "Type": "Single",
+        "XSpeed": -0.5,
+        "YSpeed": 0
+      },
+      {
+        "X": 20,
+        "Y": 32,
+        "Type": "Single",
+        "XSpeed": 0.5,
+        "YSpeed": 0
+      },
+      {
+        "X": 3,
+        "Y": 28,
+        "Type": "Single",
+        "XSpeed": 0.5,
+        "YSpeed": 0
+      },
+      {
+        "X": 17,
+        "Y": 24,
+        "Type": "Single",
+        "XSpeed": -0.5,
+        "YSpeed": 0
+      },
+      {
+        "X": 5,
+        "Y": 21,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 16,
+        "Y": 20,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 11,
+        "Y": 17,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 8,
+        "Y": 13,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      },
+      {
+        "X": 13,
+        "Y": 11,
+        "Type": "Single",
+        "XSpeed": 0,
+        "YSpeed": 0
+      }
+    ],
+    "Gate": {
+      "X": 10,
+      "Y": 2
+    }
+    }
+}
