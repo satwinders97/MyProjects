@@ -1,0 +1,164 @@
+------------ Create database ----------------
+
+-- Table: AuthorList
+CREATE TABLE AuthorList (
+    AuthorId INTEGER      NOT NULL,
+    AFirst   VARCHAR (15) NOT NULL,
+    ALast    VARCHAR (15) NOT NULL,
+    PRIMARY KEY (
+        AuthorId
+    )
+);
+
+-- Table: Book
+CREATE TABLE Book (
+    ISBN           VARCHAR (10) NOT NULL,
+    title          VARCHAR (30) NOT NULL,
+    year           INT          NOT NULL,
+    price          DOUBLE       NOT NULL,
+    publisher_name VARCHAR (30) NOT NULL,
+    Supplier_ID    INT          NOT NULL,
+    Genre          VARCHAR (15) NOT NULL,
+    PRIMARY KEY (
+        ISBN
+    ),
+    FOREIGN KEY (
+        Supplier_ID
+    )
+    REFERENCES Supplier (Supplier_ID)
+);
+
+
+-- Table: Book_Author
+CREATE TABLE Book_Author (
+    ISBN     INT     NOT NULL,
+    AuthorId INTEGER NOT NULL,
+    FOREIGN KEY (
+        AuthorId
+    )
+    REFERENCES AuthorList (AuthorId),
+    FOREIGN KEY (
+        ISBN
+    )
+    REFERENCES Book (ISBN) 
+);
+
+
+-- Table: Customer
+CREATE TABLE Customer (
+    Customer_ID INT     NOT NULL,
+    email       VARCHAR NOT NULL,
+    PRIMARY KEY (
+        Customer_ID
+    )
+);
+
+
+-- Table: Customer_Name
+CREATE TABLE Customer_Name (
+    Customer_ID INT          NOT NULL,
+    First       VARCHAR (16) NOT NULL,
+    Last        VARCHAR (16) NOT NULL,
+    FOREIGN KEY (
+        Customer_ID
+    )
+    REFERENCES Customer (Customer_ID) 
+);
+
+
+-- Table: Customer_Purchase
+CREATE TABLE Customer_Purchase (
+    Receipt_No  INT       NOT NULL,
+    ISBN        INT       NOT NULL,
+    Date_Time   TIMESTAMP NOT NULL,
+    Amount      DOUBLE    NOT NULL,
+    Quantity    INT       NOT NULL,
+    Customer_ID INTEGER   NOT NULL,
+    PRIMARY KEY (
+        Receipt_No
+    ),
+    FOREIGN KEY (
+        Customer_ID
+    )
+    REFERENCES Customer (Customer_ID),
+    FOREIGN KEY (
+        ISBN
+    )
+    REFERENCES Book (ISBN) 
+);
+
+
+-- Table: Orders
+CREATE TABLE Orders (
+    Order_ID        INT     NOT NULL,
+    orderDate       DATE    NOT NULL,
+    orderTime       TIME    NOT NULL,
+    ISBN            INT     NOT NULL,
+    Quantity        INT     NOT NULL,
+    Supplier_ID     INTEGER NOT NULL,
+    BookAmount      DOUBLE  NOT NULL,
+    TotalAmountPaid DOUBLE  NOT NULL,
+    PRIMARY KEY (
+        Order_ID
+    ),
+    FOREIGN KEY (
+        Supplier_ID
+    )
+    REFERENCES Supplier (Supplier_ID),
+    FOREIGN KEY (
+        ISBN
+    )
+    REFERENCES Book (ISBN)
+);
+
+
+-- Table: Store_Inventory
+CREATE TABLE Store_Inventory (
+    DISBN         INT     NOT NULL,
+    Book_Quantity INT     NOT NULL,
+    Reorder       BOOLEAN NOT NULL,
+    FOREIGN KEY (
+        DISBN
+    )
+    REFERENCES Book (ISBN) 
+);
+
+
+-- Table: Supplier
+CREATE TABLE Supplier (
+    Supplier_ID INT          NOT NULL,
+    Name        VARCHAR (30) NOT NULL,
+    PRIMARY KEY (
+        Supplier_ID
+    )
+);
+
+
+---------- Create views ---------------
+
+
+-- View: TotalBooksSold
+CREATE VIEW TotalBooksSold AS
+    SELECT B.ISBN,
+           B.title,
+           B.publisher_name,
+           B.year,
+           SUM(CP.Quantity) 
+      FROM Book B,
+           Customer_Purchase CP
+     WHERE B.ISBN = CP.ISBN
+     GROUP BY B.ISBN;
+
+
+-- View: TotalCustomerBill
+CREATE VIEW TotalCustomerBill AS
+    SELECT N.Customer_ID,
+           N.First,
+           N.Last,
+           SUM(CP.Amount) 
+      FROM Customer_Name N,
+           Customer C,
+           Customer_Purchase CP
+     WHERE N.Customer_ID = C.Customer_ID AND 
+           C.Customer_ID = CP.Customer_ID
+     GROUP BY N.Customer_ID;
