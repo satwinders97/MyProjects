@@ -1,0 +1,101 @@
+﻿1,Cassandra,Adams
+2,Allison,Arieff
+3,Albert-László,Barabási
+4,Christine,Bastin
+5,Simon,Benninga
+6,Larry,Bossidy
+7,Suzanne,Brockmann
+8,Angela C.,Buraglia
+9,Charles,Burck
+10,Bryan,Burkhart
+11,Tara,Calishain
+12,Gerald,Carter
+13,Leon,Chalnick
+14,Ram,Charan
+15,Rita Hartung,Cheng
+16,Francis D. K.,Ching
+17,Leslie Plummer,Clagett
+18,Mary Higgins,Clark
+19,Ken,Coffman
+20,Daniel W.,Collins
+21,Michael,Cunningham
+22,Benjamin,Czaczkes
+23,Taffy,Dahl
+24,Mark Z.,Danielewski
+25,Chip,Dawes
+26,Jeffery,Deaver
+27,Jay P.,Decima
+28,Matthew,Delaney
+29,Don,DeLillo
+30,Rael,Dornfest
+31,Paul,DuBois
+32,Ramez A.,Elmasri
+33,Jacques,Evrard
+34,Paul Marcus,Fischer
+35,B. J.,Fogg
+36,Ben,Forta
+37,Eibe,Frank
+38,Tina,Freeman
+39,Gerard,Gefen
+40,Ken,Getz
+41,Laurel,Graeber
+42,Mark,Grinblatt
+43,Andrew,Gross
+44,Mike,Gunderloy
+45,Laurell K.,Hamilton
+46,Dee,Henderson
+47,Ken,Henderson
+48,Robert C.,Higgins
+49,Joseph C.,Johnson
+50,W. Bruce,Johnson
+51,Donald,Kaufman
+52,Scott,Kelby
+53,Sue Monk,Kidd
+54,Donald E.,Kieso
+55,Ralph,Kimball
+56,Stephen,King
+57,Brian,Knight
+58,Ralph R.,Kylloe
+59,Patrick,Lencioni
+60,Roma,Ligocka
+61,Paul,Litwin
+62,Bill,Mann
+63,Lee,McAlester
+64,Virginia,McAlester
+65,Ian,McEwan
+66,Harold,McGee
+67,Michael,Meyers
+68,Jacquelyn,Mitchard
+69,Karen Marie,Moning
+70,Shamkant B.,Navathe
+71,Chuck,Palahniuk
+72,Ann,Patchett
+73,James,Patterson
+74,Steven,Pinker
+75,Terry,Pratchett
+76,Andy,Rae
+77,Lawrence,Revsine
+78,Nora,Roberts
+79,Michael,Romkey
+80,Steven J.,Root
+81,Margy,Ross
+82,Carl,Sagan
+83,Robert D.,Schmidt
+84,Alice,Sebold
+85,Nicholas,Sparks
+86,Doug,Stuns
+87,Wladyslaw,Szpilman
+88,William James,Taylor
+89,Biju,Thomas
+90,Sheridan,Titman
+91,Joseph,Truini
+92,Rob,Vieira
+93,Terry D.,Warfield
+94,Matthew,Weishan
+95,Nate,Weiss
+96,Jerry J.,Weygandt
+97,Edward Osborne,Wilson
+98,Ian H.,Witten
+99,Stephen,Wolfram
+100,Jeffrey M.,Wooldridge
+101,Bernie,Wrightson
